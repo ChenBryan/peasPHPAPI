@@ -32,8 +32,10 @@ peasPHPAPI
  *    -
  * 返回数据：
  *    json 与 xml 两种方式 amf还没有完善
----
+
+
 eg:
+---
    http://127.0.0.1/peasPHPAPI/index.php?r=json/icom.qti/Qti/getQti&info={"a":1,"b":2,"c":3,"d":4,"e":5}
    http://127.0.0.1/peasPHPAPI/index.php?r=json/icom.qti/Qti/testDB&info={"name":"cwh"}
    http://127.0.0.1/peasPHPAPI/index.php?r=json/icom.qti/Qti/testupdatedb&info={"age":20,"id":8}
