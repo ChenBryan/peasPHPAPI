@@ -34,7 +34,7 @@ peasPHPAPI
  *    json 与 xml 两种方式 amf还没有完善
 
 
-eg:
+eg: get请求 post及rest 请看代码，一个道理。
 ---
    http://127.0.0.1/peasPHPAPI/index.php?r=json/icom.qti/Qti/getQti&info={"a":1,"b":2,"c":3,"d":4,"e":5}
    http://127.0.0.1/peasPHPAPI/index.php?r=json/icom.qti/Qti/testDB&info={"name":"cwh"}
